@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px 0;
+  font-size: 20px;
+}
+
+header div {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+header nav ul {
+  display: flex;
+  list-style-type: none;
+  gap: 15px;
+}
+
+main {
+  width: 55%;
+  margin: 12vw auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.section-title {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.photo {
+  width: 250px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.student-details {
+  display: flex;
+  gap: 60px;
+}
+
+.details {
+  font-size: 20px;
+}
+
+.subject-details {
+  font-size: 20px;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.crossword {
+  width: 80%;
+  margin: 12vw auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.crosswords {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.crosswords img {
+  width: 600px;
+  object-fit: fit;
+}
